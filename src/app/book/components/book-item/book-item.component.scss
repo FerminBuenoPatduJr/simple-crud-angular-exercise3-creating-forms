@@ -3,7 +3,7 @@
     width: 20vw;
     margin: 10px;
     padding: 10px;
-    background-color: rgb(212, 179, 146);
+    background-color: rgb(203, 218, 143);
     border-radius: 5%;
     box-shadow: 3px 3px;
     display: flex;
@@ -12,6 +12,10 @@
     align-content: center;
     margin-left: 50px;
 
+}
+.card:hover{
+  background-color: rgb(219, 214, 196);
+ 
 }
 
 .items{
