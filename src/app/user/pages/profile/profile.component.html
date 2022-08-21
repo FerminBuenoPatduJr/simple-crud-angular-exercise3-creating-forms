@@ -3,28 +3,28 @@
     <h1>Profile Form</h1>
     <form [formGroup] = "profileForm" (ngSubmit) = "submit()">
         <div class = "inputContainer">
-            <label >Email:</label><br>
+            <label ><b>Email:</b></label><br>
             <input type="text" formControlName = "email">
-    
+
         </div>
         <div class = "inputContainer">
-            <label for="">Name:</label><br>
+            <label for=""><b>Name:</b></label><br>
             <input type="text" formControlName = "name">
-    
+
         </div>
         <div class = "inputContainer">
-            <label for="">Bio:</label><br>
+            <label for=""><b>Bio:</b></label><br>
             <input type="text" formControlName = "bio">
-    
+
         </div>
         <div class = "inputContainer">
-            <label for="">Active:</label><br>
+            <label for=""><b>Active:</b></label><br>
             <input type="text" formControlName = "activate">
-    
+
         </div>
-        
+
          <button type ="submit">Submit</button>
     </form>
-    
+
 
 </div>
