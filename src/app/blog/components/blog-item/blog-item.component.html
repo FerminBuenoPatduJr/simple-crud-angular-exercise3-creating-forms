@@ -1,19 +1,18 @@
 <div class = "card">
     <h1 class = "title">{{blog?.title}}</h1>
-    <div class = "description">Description: {{blog?.description}}</div>
-    
-    <div class = "author">Author: {{blog?.author}}</div>
+    <div class = "description"><b>Description:</b> {{blog?.description}}</div>
+
+    <div class = "author"><b>Author:</b> {{blog?.author}}</div>
     <div class = "comment-container">
         <div *ngFor = "let comment of blog?.comments" class = "comments">
             <h3>{{comment}}</h3>
         </div>
     </div>
-    
-    
+
+
     <div class = "btn-container">
       <button class ="btn" (click) = "edit()"  routerLink = "/blog/form">Edit</button>
       <button class = "btn" (click) = "delete()">Delete</button>
   </div>
-  
+
   </div>
-  
