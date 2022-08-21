@@ -1,17 +1,25 @@
 .btn{
-    background-color:#3b5998;
+    background-color:#8f94a0;
     border-style: none;
     border-radius: 10%;
     color: white;
     font-size: 1.2rem;
     margin: 8px;
-    padding: 5px;
+    padding: 10px;
     cursor: pointer;
-    
+    border: 2px;
+    border-color: #34353a;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: .3s;
+    -webkit-tap-highlight-color: rgba(40, 255, 234, 0);
 }
+
+
 
 .btn-container{
     display: flex;
-    justify-content: flex-end;
-    padding-left: 50px;
+    justify-content:left;
+    padding-left: 5px;
 }
+
+
